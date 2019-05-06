@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    cursor: pointer;
+}
+body{
+    background-image: url("../images/bg.jpg");
+}
+.login-box{
+    width: 375px;
+    height: 325px;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-family: "微软雅黑";
+    border-radius: 25px;
+    color: white;
+    background-color: #777775;
+    opacity: 0.8;
+}
+.logo{
+    width: 375px;
+    height: 84px;
+    text-align: center;
+    padding-top: 40px;
+}
+.title{
+
+    font-size: 40px;
+}
+.user_info{
+    width: 250px;
+    height: 195px;
+    margin: 0 auto;
+
+}
+.username{
+    width: 250px;
+    height: 40px;
+    padding-top: 17px;
+}
+.password{
+    width: 250px;
+    height: 40px;
+    padding-top: 17px;
+}
+.frame-left{
+    width: 15px;
+    height: 40px;
+    float: left;
+}
+.user_logo{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.user_text{
+    width: 185px;
+    height: 40px;
+    float: left;
+}
+.text_style{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    float: left;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.check-div{
+    width: 35px;
+    height: 40px;
+    float: left;
+}
+.check-info{
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+}
+.login_button{
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    /*margin-top: 7px;*/
+    margin-left: 25px;
+    margin-right: 25px;
+    /*text-align: center;
+    background-color: #bedcff;*/
+}
+.button2Login{
+    width: 55px;
+    height: 20px;
+    margin-top: 4px;
+    margin-right: 20px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    background-color: transparent;
+    border-style: none;
+    float: right;
+}
+.login-submit{
+    display: inline-block;
+    color: #fdf8ff;
+    width: 200px;
+    height: 40px;
+    font-size: 23px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #c4e2df;
+}
+.login-submit:hover{
+    background-color: #9ddbdf;
+}
+button{
+    outline: none;
+}
